@@ -1,0 +1,158 @@
+/* All Common Css Start  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+*{
+    text-decoration: none;
+  display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common Css End   */
+/* Header Part Start  */
+#headerpart{ 
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+  
+}
+.headerFlex{
+display: flex; 
+justify-content: space-between;
+align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu ul li a{
+    color: #242836;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerBtn a{
+  border: 1px solid #417D6E;  
+  padding: 10px 18px;
+  border-radius: 500px;
+   color: #242836;
+    font-size: 16px;
+    font-weight: 400;
+  margin-right: 10px;
+}
+.headerBtn a:hover{
+    background: #007456;
+    color: #fff;
+}
+/* Header Part End  */
+ /* Baner Part Start  */
+
+#banerpart{
+ padding-top: 180px;
+padding-bottom: 95px 0;
+background: url(..//images/Rectangle\ 10.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+.banerfelx{
+   display: flex; 
+   justify-content:space-between; 
+}
+ .banerleft{
+width: 50%;
+ }
+ .banerright{
+width: 50%;
+ }
+ .banercontant{
+    padding-top: 65px;
+ }
+ .banercontant h1{
+    color:#242836 ;
+    font-size: 60px;
+    font-weight: 600;
+ }
+ .banercontant p{
+    color: #384763; ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 20px;
+ 
+ }
+ .banercontant a{
+  padding:16px 24px ; 
+  border: 1px solid #007456;
+  border-radius: 8px;
+  color:#007456;
+  margin-right: 10px;
+ }
+ .banercontant a:hover{
+  background-color: #007456;  
+  color: #fff;
+ }
+.Searchgroup{
+  position: relative;  
+ }
+
+.banercontant input{
+    width: 100%;
+    padding: 16px 0 16px 16px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #417D6E;
+    position: relative;
+}
+
+ 
+
+ .box{
+    height: 48px;
+    width: 48px;
+    background: orange;
+    border-radius: 8px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%,);
+
+ }
+ .box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+.banerright img{
+     width: 100%;
+     
+}
+ .banerlast a{
+    padding: 8px 12px;
+    border: 1px solid #384763;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  
+ }
+
+
+
+ .banerlast{
+   width: 80%;
+ }
+
+ /* Baner Part End  */
